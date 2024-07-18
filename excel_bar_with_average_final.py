@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-file_path = 'C:/Users/varsh/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.12/sample.xlsx'
+file_path = 'sample.xlsx'
 df = pd.read_excel(file_path)
 print("Column names:", df.columns)
 print(df.head())
